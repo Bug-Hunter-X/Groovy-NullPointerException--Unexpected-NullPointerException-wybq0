@@ -1,0 +1,3 @@
+This repository demonstrates an unexpected NullPointerException in Groovy.  Even though the `myMethod` explicitly checks for a null parameter, a NullPointerException is still thrown. This is because the null check is performed before any potential implicit type coercion that might occur. 
+
+The solution shows how to modify the method to avoid this issue by handling nulls appropriately or by explicitly defining the parameter type.
